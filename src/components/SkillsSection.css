@@ -1,0 +1,149 @@
+.skills-container {
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+  }
+  
+  .skills-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #253c4c;
+    margin-bottom: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .skills-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+  
+  .skills-section {
+    flex: 1 1 300px;
+    margin: 1rem;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skills-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills-section h2 {
+    font-size: 1.8rem;
+    color: #253c4c;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .skills-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #253c4c;
+  }
+  
+  .skills-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-section ul li {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+  
+  .skills-section ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #253c4c;
+    font-size: 1.2rem;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .skills-container {
+      padding: 2rem 1rem;
+    }
+  
+    .skills-content {
+      padding: 1.5rem;
+    }
+  
+    .skills-section {
+      padding: 1.2rem;
+    }
+  
+    .skills-section h2 {
+      font-size: 1.6rem;
+    }
+  
+    .skills-section ul li {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .skills-container {
+      padding: 1rem 0.5rem;
+    }
+  
+    .skills-content {
+      padding: 1rem;
+    }
+  
+    .skills-section {
+      padding: 1rem;
+    }
+  
+    .skills-section h2 {
+      font-size: 1.4rem;
+    }
+  
+    .skills-section ul li {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .skills-container {
+      padding: 0.5rem 0.2rem;
+    }
+  
+    .skills-content {
+      padding: 0.5rem;
+    }
+  
+    .skills-section {
+      padding: 0.8rem;
+    }
+  
+    .skills-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .skills-section ul li {
+      font-size: 0.8rem;
+    }
+  }

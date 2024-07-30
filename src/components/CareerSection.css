@@ -1,0 +1,32 @@
+.career-container {
+    padding: 40px; /* Increase padding to ensure spacing around the section */
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.career-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.career-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 20px;
+}
+
+.career-logo img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.work-exp-list li {
+    font-size: 18px;
+    margin-bottom: 10px; /* Adjust the value to increase/decrease the gap */
+}

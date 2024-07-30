@@ -1,0 +1,154 @@
+.education-container {
+    padding: 40px; /* Increase padding to ensure spacing around the section */
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.education-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 40px; /* Increased spacing between timeline items */
+}
+
+.timeline-item-text {
+    flex: 1;
+    padding-right: 120px;
+}
+
+.timeline-item-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 20px;
+}
+
+.timeline-item-logo img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Responsive adjustments */
+
+@media screen and (max-width: 1200px) {
+    .timeline-item-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .timeline-item-text {
+        padding-right: 100px;
+    }
+
+    .timeline-item-logo img {
+        max-width: 80px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .timeline-item-content {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .timeline-item-text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .timeline-item-logo {
+        position: relative;
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .timeline-item-logo img {
+        max-width: 60px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timeline-item-logo img {
+        max-width: 50px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .timeline-item-logo img {
+        max-width: 40px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
