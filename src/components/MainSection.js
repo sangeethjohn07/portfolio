@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 function MainSection() {
     return (
         <div className='mainsection-container' id="mainsection">
-            <video src='portfolio/videos/mainsection.mp4' autoPlay loop muted />
+            <video src='videos/mainsection.mp4' autoPlay loop muted />
 
             <h1>
                 <Typewriter
