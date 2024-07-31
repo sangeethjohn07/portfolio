@@ -33,7 +33,7 @@ function CareerSection() {
               </ul>
             </div>
             <div className='career-logo'>
-              <img src='images/appd.png' alt='Cisco Appdynamics logo' />
+              <img src='portfolio/images/appd.png' alt='Cisco Appdynamics logo' />
             </div>
           </Timeline.Item>
         </Timeline>

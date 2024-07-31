@@ -16,7 +16,7 @@ function EducationSection() {
                         <p>Relevant Coursework: Project Management, Marketing, Strategic Management</p>
                         <p>CGPA: 4.0/4.0</p>
                         <div className='timeline-item-logo'>
-                                <img src='images/emlyon.png' alt="emlyon business school logo" />
+                                <img src='portfolio/images/emlyon.png' alt="emlyon business school logo" />
                             </div>
                     </Timeline.Item>
                     <Timeline.Item>
@@ -25,7 +25,7 @@ function EducationSection() {
                         <p>Bachelor of Technology in Computer Science</p>
                         <p>CGPA: 8.37/10</p>
                         <div className='timeline-item-logo'>
-                                <img src='images/nitc.png' alt="NITC logo" />
+                                <img src='portfolio/images/nitc.png' alt="NITC logo" />
                             </div>
                     </Timeline.Item>
                     
