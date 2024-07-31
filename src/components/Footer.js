@@ -12,7 +12,7 @@ function Footer() {
             <Link className="social-media linkedin" to="https://www.linkedin.com/in/sangeethjohn/" target='_blank' aria-label='LinkedIn'>
                 <i className="fa fa-linkedin" />
             </Link>
-            <Link className="social-media gmail" to="" target='_blank' aria-label='gmail'>
+            <Link className="social-media gmail" to="mailto:sangeethjohn1997@gmail.com" target='_blank' aria-label='gmail'>
                 <i className="fa fa-google" />
             </Link>
       

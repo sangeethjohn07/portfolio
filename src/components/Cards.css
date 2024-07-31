@@ -1,6 +1,8 @@
 .cards {
     padding: 4rem;
     background: #fff;
+    padding-top: 90px;
+
   }
   
   h1 {
@@ -36,7 +38,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgba(37, 47, 65, 0.4);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -68,6 +70,7 @@
     color: #fff;
     background-color: #253c4c;
     box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
   }
   
   .cards__item__img {
@@ -107,7 +110,6 @@
   }
 
   .publication-card {
-    padding: 40px; /* Increase padding to ensure separation from other sections */
     max-width: 100%;
     margin: 0 auto;
     background-color: #ffffff; /* Optional: background color for better separation */

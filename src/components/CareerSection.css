@@ -1,32 +1,72 @@
 .career-container {
-    padding: 40px; /* Increase padding to ensure spacing around the section */
+    padding: 40px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
-}
-
-.career-content {
+  }
+  
+  .career-content {
     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.career-logo {
+  }
+  
+  .career-logo {
     position: absolute;
     top: 0;
     right: 0;
     margin-left: 20px;
-}
-
-.career-logo img {
+  }
+  
+  .career-logo img {
     max-width: 200px;
     height: auto;
     border-radius: 8px;
-}
-
-
-.work-exp-list li {
+  }
+  
+  .work-exp-list li {
     font-size: 18px;
-    margin-bottom: 10px; /* Adjust the value to increase/decrease the gap */
-}
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .career-container {
+      padding: 20px;
+    }
+  
+    .career-content {
+      padding: 15px;
+    }
+  
+    .career-logo {
+      position: static;
+      margin: 20px 0;
+      text-align: center;
+    }
+  
+    .career-logo img {
+      max-width: 150px;
+    }
+  
+    .work-exp-list li {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .career-content {
+      padding: 10px;
+    }
+  
+    .career-logo img {
+      max-width: 120px;
+    }
+  
+    .work-exp-list li {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+  }

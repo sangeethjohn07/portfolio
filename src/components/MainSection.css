@@ -16,6 +16,7 @@ video {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
     object-fit: contain;
+
 }
 
 .mainsection-container > h1 {
@@ -40,6 +41,7 @@ video {
     font-family: sans-serif;
     align-self: center;
     padding-top: 30px;
+    text-align:center;
 }
 
 .mainsection-container > h3 {
@@ -49,6 +51,7 @@ video {
     font-family: sans-serif;
     align-self: center;
     padding-top: 10px;
+    text-align:center;
 }
 
 
@@ -72,13 +75,18 @@ video {
     transition: all 0.3s ease-out;
 }
 
-.fa-angle-double-down {
-    color: #565151;
-    font-size: 5rem;
+.arrow-box {
+    display: flex;
     position:absolute;
     bottom: 0;
+
+}
+
+.fa-angle-double-down {
+    color: #474343;
+    font-size: 5rem;
     animation: blink 2s ease-in infinite;
-  }
+}
 
   @keyframes blink {
     from, to { opacity: 1 }
@@ -87,8 +95,17 @@ video {
 
 @media screen and (max-width : 960px) {
     .mainsection-container > h1 {
-        font-size: 32px;
+        font-size: 30px;
         margin-top: -150px;
+    }
+
+    .mainsection-container > p {
+        font-size: 25px;
+    }
+
+    .mainsection-container > h2,
+    .mainsection-container > h3 {
+        font-size: 20px;
     }
 
 }
@@ -100,7 +117,12 @@ video {
     }
     
     .mainsection-container > p {
-        font-size: 15px;
+        font-size: 20px;
+    }
+
+    .mainsection-container > h2,
+    .mainsection-container > h3 {
+        font-size: 17px;
     }
 
     .btn-mobile {

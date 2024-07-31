@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 function MainSection() {
     return (
-        <div className='mainsection-container'>
+        <div className='mainsection-container' id="mainsection">
             <video src='/videos/mainsection.mp4' autoPlay loop muted />
 
             <h1>
@@ -30,7 +30,11 @@ function MainSection() {
                     </button>
                 </a>
             </div>
-            <i className="fa fa-angle-double-down"></i>
+            <div className="arrow-box">
+            <a href='#profileCard'>
+                <i className="fa fa-angle-double-down"></i>
+            </a>
+            </div>
         </div>
     )
 }
