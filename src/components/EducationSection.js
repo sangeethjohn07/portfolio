@@ -4,7 +4,7 @@ import "./EducationSection.css"
 
 function EducationSection() {
     return (
-        <div className='education-container'>
+        <div className='education-container' id="education">
             <div className='education-content'>
             <h1>Education</h1>
 
